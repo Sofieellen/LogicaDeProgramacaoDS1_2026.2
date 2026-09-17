@@ -16,7 +16,11 @@ SUA MISSÃO:
 # CÓDIGO ORIGINAL COM BUG (Analise e corrija):
 # nota1 = input("Digite a primeira nota: ")
 # nota2 = input("Digite a segunda nota: ")
-# media = nota1 + nota2 / 2
+# medinota1 + nota2a =  / 2
 # print("A média do aluno é:", media)
 
 # TODO: Escreva aqui o código corrigido:
+nota1 = input("Digite a primeira nota: ")
+nota2 = input("Digite a segunda nota: ")
+media = (float(nota1) + float(nota2)) /2
+print ("A media do aluno e:",media )
