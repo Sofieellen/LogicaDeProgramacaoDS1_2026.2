@@ -14,3 +14,22 @@ Imprima: novo salário, valor do reajuste ganho e percentual aplicado.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+salario_atual = float(input("Digite o salário atual do colaborador: R$ "))
+
+if salario_atual <= 400.00:
+    percentual = 15
+elif salario_atual <= 800.00:
+    percentual = 12
+elif salario_atual <= 1200.00:
+    percentual = 10
+elif salario_atual <= 2000.00:
+    percentual = 7
+else:
+    percentual = 4
+
+valor_reajuste = salario_atual * (percentual / 100)
+novo_salario = salario_atual + valor_reajuste
+
+print(f"\nNovo salário: R$ {novo_salario:.2f}")
+print(f"Valor do reajuste ganho: R$ {valor_reajuste:.2f}")
+print(f"Percentual aplicado: {percentual}%")
