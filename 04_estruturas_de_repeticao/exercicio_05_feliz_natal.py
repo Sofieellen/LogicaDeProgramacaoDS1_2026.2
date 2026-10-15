@@ -9,3 +9,7 @@ da palavra natal exatamente I vezes (ex: I=5 -> "Feliz nataaaal!").
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+numero=int(input("digite um numero de a"))
+for n in range(numero):
+    n=numero*"a"
+    print(f"Feliz nat{n}1!!")

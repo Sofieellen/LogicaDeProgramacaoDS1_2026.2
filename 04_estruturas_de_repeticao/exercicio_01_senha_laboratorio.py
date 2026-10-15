@@ -9,3 +9,14 @@ Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+from operator import truediv
+
+
+senha= 2002
+while True:
+    numero=int(input("digite sua senha"))
+    if numero==senha:
+        print("senha valida")
+        break
+    else:
+        print("senha invalida")
